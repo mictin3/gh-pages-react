@@ -1,12 +1,13 @@
 import React from 'react'
-import logo from './logo.svg'
 import './App.css'
+import Logo from './mictin.jpeg'
 
 function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <p>Michael Martin</p>
+        <p>Michael Martin!</p>
+        <img src={Logo} alt='' height='200px' />
         <a
           className='App-link'
           href='https://reactjs.org'
